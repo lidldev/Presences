@@ -1,5 +1,5 @@
 const presence = new Presence({
-		clientId: "",
+		clientId: "1065314617611530321",
 	}),
 	strings = presence.getStrings({
 		play: "presence.playback.playing",
@@ -8,7 +8,7 @@ const presence = new Presence({
 	browsingTimestamp = Math.floor(Date.now() / 1000);
 
 const enum Assets { // Other default assets can be found at index.d.ts
-	Logo = "",
+	Logo = "https://i.imgur.com/ZqscVFc.png",
 }
 
 presence.on("UpdateData", async () => {
